@@ -2,8 +2,8 @@
 Treehouse Techdegree:
 FSJS project 2 - List Filter and Pagination
 ******************************************/
-let CurrentDisplayedStudents = document.querySelectorAll('.student-item');
-const students = CurrentDisplayedStudents;
+let CurrentDisplayedStudents = document.querySelectorAll('.student-item');           //array of currently searched items, if the search bar is empty, it will contain all the student tems
+const students = CurrentDisplayedStudents;					     //array of all student items
 const pages = {
 	current: 1,															//current active page
 	min: 1,																//the first page available
